@@ -1,0 +1,44 @@
+                                  //子动作：
+void Dance_chassis_left(void);                //左100
+void Dance_chassis_right(void);               //右100
+void Dance_chassis_forward(void);             //前100
+void Dance_chassis_backward(void);            //后100
+void Dance_chassis_clockwise(void);           //顺时针50°
+void Dance_chassis_clockwise1(void);          //顺时针100°
+void Dance_chassis_clockwise2(void);          //顺时针150°
+void Dance_chassis_clockwise3(void);          //顺时针200°
+void Dance_chassis_counterclockwise(void);    //逆时针50°
+void Dance_chassis_counterclockwise1(void);   //逆时针100°
+void Dance_chassis_counterclockwise2(void);   //逆时针150°
+void Dance_chassis_counterclockwise3(void);   //逆时针200°
+void Dance_chassis_stop(void);                //停车
+
+void Dance_gimbal_up(void);                   //抬头X°
+void Dance_gimbal_down(void);                 // 低头X°
+void Dance_gimbal_stop(void);                 // 停车（包括pitch轴电机）
+
+/********复合动作  *********/
+void Dance_chassis_forwardleft(void);         //左前100 
+void Dance_chassis_forwardright(void);        //右前100
+void Dance_chassis_backwardleft(void);        //左后100
+void Dance_chassis_backwardright(void);       //右后100
+void Dance_chassis_leftcounterclockwise(void);  //   双左，定尾逆旋（待调，四参数相同）    参数：50+360   时间用400,800
+void Dance_chassis_rightcounterclockwise(void);     左右，定头逆旋（待调）
+void Dance_chassis_leftclockwise(void);     右左，定头顺旋（待调）
+
+void Dance_chassis_forwardup(void);
+void Dance_chassis_backwardup(void);
+void Dance_chassis_forwarddown(void);
+void Dance_chassis_backwarddown(void);
+void Dance_chassis_leftup(void);
+void Dance_chassis_rightup(void);
+void Dance_chassis_leftdown(void);
+void Dance_chassis_rightdown(void);
+
+void Dance_chassis_clockwiseup(void);
+void Dance_chassis_counterclockwiseup(void);
+void Dance_chassis_clockwisedown(void);
+void Dance_chassis_counterclockwisedown(void);
+
+void Dance_next_song(void);
+
